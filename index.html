@@ -372,9 +372,10 @@
         </div>
 
         <div class="buttonContainer">
-          <button class="button button1">Download Resume</button>
+          <button class="button button1", onclick="myFunction()">Download Resume</button>
         </div>
       </div>
+
     </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
@@ -704,6 +705,12 @@
       scale: 1.00,
       scaleMobile: 1.00
     })
+  </script>
+
+<script>
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+  }
   </script>
 
 </body>
